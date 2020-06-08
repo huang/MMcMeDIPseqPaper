@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="mm10" hasGeneTrack="true" hasSequenceTrack="true" locus="chr6:136501806-136546691" nextAutoscaleGroup="8" path="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Auswertung DO\Auswertung neu\Final_igv_session.xml" version="8">
+    <Resources>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_2pos_rpkm.bw"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_5neg_rpkm.bw"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_4pos_rpkm.bw"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_4neg_rpkm.bw"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_2pos_input_rpkm.bw"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_2neg_rpkm.bw"/>
+        <Resource path="diffreps_results_800\800.diff.gt.bed"/>
+        <Resource path="..\..\Files Jiabin\cpgIslandExt.mm10_2.bed"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_4pos_input_rpkm.bw"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_4neg_input_rpkm.bw"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_5neg_input_rpkm.bw"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_5pos_input_rpkm.bw"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_5pos_rpkm.bw"/>
+        <Resource path="..\..\Files Jiabin\Auswertung neu\MMC_2neg_input_rpkm.bw"/>
+    </Resources>
+    <Panel height="922" name="DataPanel" width="1901">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="20" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,153,153" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_2pos_input_rpkm.bw" name="MMc_pos_2 input" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,153,153" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_4pos_input_rpkm.bw" name="MMc_pos_4 input" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,153,153" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_5pos_input_rpkm.bw" name="MMc_pos_5 input" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,153,153" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_2neg_input_rpkm.bw" name="MMc_neg_2 input" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,153,153" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_4neg_input_rpkm.bw" name="MMc_low_4 input" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,153,153" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_5neg_input_rpkm.bw" name="MMc_low_5 input" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,0,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_2pos_rpkm.bw" name="MMc_pos_2" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,0,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_4pos_rpkm.bw" name="MMc_pos_4" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,0,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_5pos_rpkm.bw" name="MMc_pos_5" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,204" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_2neg_rpkm.bw" name="MMc_low_2" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,204" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_4neg_rpkm.bw" name="MMc_low_4" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,204" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\Auswertung neu\MMC_5neg_rpkm.bw" name="MMc_low_5" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="102,102,102" colorScale="ContinuousColorScale;0.0;38.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Auswertung DO\Auswertung neu\diffreps_results_800\800.diff.gt.bed" name="800.diff.gt.bed" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="38.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" colorScale="ContinuousColorScale;0.0;185.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" height="35" id="mm10_genes" name="Refseq genes" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="185.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,102,0" colorScale="ContinuousColorScale;0.0;74.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="15" id="G:\V.8_Sequencing_Auswertung\Versuch Arck_MedIP\Files Jiabin\cpgIslandExt.mm10_2.bed" name="CpG islands" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="74.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
