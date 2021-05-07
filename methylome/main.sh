@@ -1,7 +1,6 @@
 #!/bin/bash
 
 
-
 #--1 trimming and quality control --
 mkdir trimmed
 for sample in MMC_2pos MMC_4pos MMC_5pos MMC_2neg MMC_4neg MMC_5neg  MMC_2pos_input MMC_4pos_input MMC_5pos_input MMC_2neg_input MMC_4neg_input MMC_5neg_input; do    
