@@ -8,4 +8,4 @@ Methylome datasets processed with the scripts are publicly available under https
 ## Microbiome analysis (16S rRNA gene sequencing)
 Scripts for analyses of the gut microbiome (16S) of Rag2-/-γc-/-171 and wild-type mothers and their respective MMc+ and MMclow offspring are under the directory microbiome.
 
-Microbiome datasets processed with the scripts are publicly available under https://www.ncbi.nlm.nih.gov/sra/?term=SRP318008 (Accession numbers SRR14369765-SRR14369817).
+Microbiome datasets processed with the scripts are publicly available under https://www.ncbi.nlm.nih.gov/bioproject/PRJNA726533 and https://www.ncbi.nlm.nih.gov/sra/?term=SRP318008 (Accession numbers SRR14369765-SRR14369817).
